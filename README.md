@@ -75,7 +75,7 @@ This repository contains the comprehensive submission for the **Data Science Fun
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/data-science-fundamentals-assessment.git
+   git clone https://github.com/stean9999/data-science-fundamentals-assessment.git
    cd data-science-fundamentals-assessment
    ```
 
