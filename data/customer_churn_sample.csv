@@ -1,0 +1,251 @@
+CustomerID,Age,AnnualIncome,Department,SatisfactionLevel,CreditScore,SignupDate,CustomerFeedback,Churned
+CUST_1000,56,54318.96,SME,Medium,618,2023-07-20,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1001,69,58254.05,Retail,Medium,648,2023-06-03,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1002,46,62686.36,Retail,Medium,717,2023-03-14,Excellent customer service and transparent charges.,1
+CUST_1003,32,63152.33,Corporate,Very High,747,2023-07-20,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1004,60,55421.49,Private Banking,High,850,2023-10-23,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1005,25,37043.69,Retail,Medium,674,2023-01-17,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1006,38,66845.09,Corporate,High,624,2023-05-09,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1007,56,61472.34,SME,Very High,725,2023-08-05,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1008,36,38548.72,Corporate,Very High,612,2023-03-02,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1009,40,44765.48,SME,Low,713,2023-04-14,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1010,28,68312.67,Private Banking,Medium,649,2023-02-11,Customer support phone line was busy for over twenty minutes.,1
+CUST_1011,28,64082.25,Corporate,Low,692,2023-01-25,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1012,41,44195.53,Corporate,Medium,745,2023-02-08,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1013,53,50950.99,Corporate,Medium,673,2023-10-18,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1014,57,52848.07,Corporate,High,735,2023-05-11,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1015,41,64255.06,Retail,Medium,732,2023-08-17,Customer support phone line was busy for over twenty minutes.,0
+CUST_1016,20,73734.11,Retail,Medium,568,2023-04-18,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1017,39,55984.74,Corporate,Medium,625,2023-06-21,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1018,19,72538.11,Retail,Medium,586,2023-04-12,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1019,41,68099.75,Retail,Medium,800,2023-12-20,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1020,61,58084.75,Corporate,Medium,673,2023-01-12,Excellent customer service and transparent charges.,0
+CUST_1021,47,33347.75,Corporate,Low,786,2023-10-02,Excellent customer service and transparent charges.,1
+CUST_1022,55,39584.34,Retail,Medium,582,2023-04-11,Excellent customer service and transparent charges.,1
+CUST_1023,19,66118.61,SME,Medium,645,2023-02-13,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1024,38,29342.06,SME,High,728,2023-11-01,Customer support phone line was busy for over twenty minutes.,0
+CUST_1025,50,56784.68,Retail,Medium,690,2023-01-17,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1026,29,70007.28,Private Banking,Low,711,2023-11-26,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1027,39,57286.31,Corporate,Low,604,2023-02-26,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1028,61,45979.04,SME,Very High,762,2023-11-07,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1029,42,42300.78,Corporate,Medium,726,2023-10-30,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1030,66,67242.29,Private Banking,High,704,2023-01-12,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1031,44,62075.61,SME,Very High,638,2023-11-14,Excellent customer service and transparent charges.,0
+CUST_1032,59,50717.66,SME,Low,699,2023-03-21,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1033,45,70979.39,SME,Very High,662,2023-08-04,Customer support phone line was busy for over twenty minutes.,0
+CUST_1034,33,67809.97,Retail,High,580,2023-12-05,Customer support phone line was busy for over twenty minutes.,1
+CUST_1035,32,81828.91,Retail,Medium,676,2023-09-21,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1036,64,63503.41,SME,Medium,670,2023-05-29,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1037,68,52532.49,Corporate,High,743,2023-03-22,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1038,61,52855.14,SME,Medium,545,2023-08-03,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1039,69,25981.45,Retail,Very High,694,2023-07-17,Customer support phone line was busy for over twenty minutes.,0
+CUST_1040,20,57259.89,Corporate,Medium,610,2023-07-19,Customer support phone line was busy for over twenty minutes.,1
+CUST_1041,54,54764.28,Retail,High,699,2023-01-25,Customer support phone line was busy for over twenty minutes.,0
+CUST_1042,68,35048.89,Corporate,Medium,702,2023-03-30,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1043,24,54620.69,Corporate,High,674,2023-09-25,Customer support phone line was busy for over twenty minutes.,0
+CUST_1044,38,75147.52,Corporate,High,728,2023-05-23,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1045,26,43981.79,Corporate,Low,605,2023-02-28,Excellent customer service and transparent charges.,1
+CUST_1046,56,40601.58,Corporate,Low,746,2023-12-31,Customer support phone line was busy for over twenty minutes.,0
+CUST_1047,35,71573.92,Corporate,Low,637,2023-01-26,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1048,21,64513.6,SME,Low,586,2023-02-16,Excellent customer service and transparent charges.,0
+CUST_1049,42,100916.43,Retail,Low,663,2023-10-15,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1050,31,35221.45,Corporate,High,554,2023-09-23,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1051,67,65805.81,Corporate,High,695,2023-01-16,Excellent customer service and transparent charges.,0
+CUST_1052,26,59738.36,SME,High,664,2023-07-18,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1053,43,55889.22,Corporate,Very High,754,2023-10-09,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1054,19,68657.68,SME,High,718,2023-03-27,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1055,37,54554.12,Private Banking,High,596,2023-09-07,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1056,45,25954.36,Retail,High,629,2023-09-27,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1057,64,42289.64,Retail,Medium,711,2023-12-01,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1058,24,75466.5,Corporate,Medium,730,2023-04-27,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1059,61,72580.43,Retail,Medium,753,2023-01-07,Customer support phone line was busy for over twenty minutes.,0
+CUST_1060,25,49403.21,Corporate,Medium,752,2023-05-17,Customer support phone line was busy for over twenty minutes.,0
+CUST_1061,64,62553.96,Private Banking,Medium,674,2023-06-25,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1062,52,96759.07,Retail,Medium,701,2023-11-24,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1063,31,54532.2,Retail,Very High,757,2023-11-11,Customer support phone line was busy for over twenty minutes.,1
+CUST_1064,34,54826.25,Retail,High,661,2023-08-03,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1065,53,57858.98,SME,Low,702,2023-03-23,Customer support phone line was busy for over twenty minutes.,1
+CUST_1066,67,64104.64,Corporate,Medium,660,2023-08-11,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1067,57,49766.48,Retail,Low,646,2023-04-13,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1068,21,64091.94,Private Banking,Medium,682,2023-09-30,Excellent customer service and transparent charges.,0
+CUST_1069,19,25836.56,SME,Medium,638,2023-01-14,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1070,23,60045.98,Retail,High,672,2023-06-08,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1071,59,55759.45,SME,Medium,617,2023-06-01,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1072,21,51738.15,SME,High,668,2023-04-18,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1073,46,47871.14,Retail,Very High,706,2023-07-07,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1074,35,45859.4,Retail,Low,644,2023-10-28,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1075,43,42797.18,Retail,High,680,2023-04-08,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1076,61,20228.98,Retail,High,688,2023-05-11,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1077,51,50979.72,SME,Medium,707,2023-10-20,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1078,27,71444.95,Private Banking,Medium,671,2023-06-20,Customer support phone line was busy for over twenty minutes.,1
+CUST_1079,53,49968.83,Retail,High,745,2023-07-02,Excellent customer service and transparent charges.,0
+CUST_1080,31,64526.69,Retail,High,553,2023-12-30,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1081,48,38796.99,Retail,High,850,2023-02-08,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1082,65,35414.54,Retail,Very High,627,2023-01-15,Excellent customer service and transparent charges.,0
+CUST_1083,32,43738.57,SME,High,704,2023-01-04,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1084,25,39617.5,Retail,Very High,623,2023-12-15,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1085,31,37254.41,Retail,High,718,2023-07-29,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1086,40,61746.61,Retail,High,696,2023-06-10,Customer support phone line was busy for over twenty minutes.,0
+CUST_1087,57,81683.87,Corporate,High,640,2023-01-16,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1088,38,44995.85,Retail,Low,744,2023-04-18,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1089,33,29622.73,SME,High,670,2023-11-07,Customer support phone line was busy for over twenty minutes.,0
+CUST_1090,62,64851.96,Retail,High,712,2023-08-15,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1091,35,33461.49,SME,Medium,624,2023-06-19,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1092,64,37251.02,Corporate,Very High,678,2023-02-03,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1093,41,62424.93,Retail,Medium,800,2023-09-08,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1094,43,52520.36,Corporate,High,737,2023-09-04,Excellent customer service and transparent charges.,0
+CUST_1095,42,44692.37,Private Banking,High,698,2023-09-26,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1096,62,56025.27,Private Banking,High,653,2023-05-21,Customer support phone line was busy for over twenty minutes.,0
+CUST_1097,58,48858.87,Corporate,Medium,684,2023-10-01,Customer support phone line was busy for over twenty minutes.,0
+CUST_1098,46,83343.21,Corporate,High,691,2023-04-06,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1099,32,44862.93,Private Banking,High,706,2023-08-15,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1100,62,41298.81,Corporate,Low,615,2023-02-08,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1101,18,48174.5,Retail,Low,720,2023-10-29,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1102,42,48808.58,Private Banking,High,614,2023-01-29,Customer support phone line was busy for over twenty minutes.,0
+CUST_1103,24,63934.65,Retail,Medium,777,2023-11-14,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1104,26,25126.93,Corporate,Medium,633,2023-09-02,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1105,41,61390.39,Retail,High,697,2023-08-24,Excellent customer service and transparent charges.,1
+CUST_1106,18,46880.72,Retail,Medium,740,2023-07-04,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1107,61,66652.35,Retail,High,664,2023-09-29,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1108,25,54285.34,SME,Medium,700,2023-08-24,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1109,41,62780.42,Retail,High,766,2023-08-27,Excellent customer service and transparent charges.,0
+CUST_1110,28,49128.97,Retail,Medium,713,2023-09-23,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1111,68,61570.34,Retail,High,701,2023-12-25,Customer support phone line was busy for over twenty minutes.,1
+CUST_1112,34,79956.55,Corporate,Medium,578,2023-12-06,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1113,25,43911.45,Private Banking,High,623,2023-03-06,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1114,52,53392.08,Corporate,Medium,742,2023-06-26,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1115,52,47706.74,Corporate,Very High,714,2023-01-03,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1116,50,78894.73,Private Banking,High,723,2023-05-22,Excellent customer service and transparent charges.,0
+CUST_1117,22,48490.88,Corporate,Very High,718,2023-06-07,Excellent customer service and transparent charges.,1
+CUST_1118,59,44009.62,Retail,High,757,2023-11-20,Customer support phone line was busy for over twenty minutes.,1
+CUST_1119,56,46325.85,Retail,Medium,664,2023-05-26,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1120,58,52964.24,Retail,High,687,2023-10-20,Customer support phone line was busy for over twenty minutes.,0
+CUST_1121,45,43097.42,Retail,Medium,618,2023-06-02,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1122,24,49473.25,Corporate,Medium,603,2023-07-12,Customer support phone line was busy for over twenty minutes.,1
+CUST_1123,26,57358.03,SME,Low,581,2023-03-14,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1124,25,53267.9,Retail,High,626,2023-11-01,Excellent customer service and transparent charges.,1
+CUST_1125,29,67475.63,Corporate,High,773,2023-12-10,Excellent customer service and transparent charges.,0
+CUST_1126,51,50209.67,Corporate,Medium,586,2023-05-20,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1127,50,51930.75,Retail,Very High,661,2023-07-06,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1128,65,59065.93,SME,Low,602,2023-10-20,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1129,40,88672.1,Corporate,Medium,643,2023-03-02,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1130,41,43185.97,Retail,Medium,690,2023-07-17,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1131,54,83854.37,SME,Low,637,2023-10-22,Customer support phone line was busy for over twenty minutes.,1
+CUST_1132,52,37246.4,Corporate,Medium,745,2023-11-15,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1133,61,58434.56,Corporate,High,772,2023-10-29,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1134,57,49909.21,Corporate,High,545,2023-12-10,Customer support phone line was busy for over twenty minutes.,1
+CUST_1135,39,42770.94,Corporate,Medium,639,2023-01-11,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1136,44,65486.39,SME,Medium,683,2023-03-03,Customer support phone line was busy for over twenty minutes.,1
+CUST_1137,52,63998.45,Retail,Low,747,2023-11-29,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1138,18,47781.28,Retail,Very High,652,2023-08-14,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1139,52,23593.09,Retail,Low,678,2023-06-02,Customer support phone line was busy for over twenty minutes.,0
+CUST_1140,54,48699.29,SME,High,610,2023-07-18,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1141,64,57088.06,Retail,Very High,588,2023-02-21,Excellent customer service and transparent charges.,0
+CUST_1142,31,55027.2,Private Banking,High,766,2023-09-17,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1143,20,66339.03,Corporate,Very High,570,2023-02-28,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1144,18,84003.14,SME,Medium,819,2023-03-13,Excellent customer service and transparent charges.,1
+CUST_1145,22,61208.12,Private Banking,High,723,2023-05-28,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1146,43,63516.53,SME,High,720,2023-12-15,Customer support phone line was busy for over twenty minutes.,0
+CUST_1147,31,57222.73,Private Banking,High,714,2023-03-04,Customer support phone line was busy for over twenty minutes.,0
+CUST_1148,56,72586.54,Corporate,Low,664,2023-11-06,Customer support phone line was busy for over twenty minutes.,0
+CUST_1149,44,62971.0,Corporate,Low,703,2023-08-31,Excellent customer service and transparent charges.,1
+CUST_1150,26,66236.59,Retail,Low,668,2023-11-26,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1151,32,82134.35,Retail,High,713,2023-04-17,Excellent customer service and transparent charges.,0
+CUST_1152,32,58404.76,Corporate,High,677,2023-08-14,Customer support phone line was busy for over twenty minutes.,0
+CUST_1153,43,50935.57,Corporate,High,622,2023-11-09,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1154,59,61694.34,Retail,Low,627,2023-08-06,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1155,30,72043.63,Corporate,Very High,620,2023-08-29,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1156,68,62521.4,Private Banking,Medium,738,2023-09-16,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1157,49,70909.58,Corporate,Medium,642,2023-09-19,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1158,56,44965.38,SME,Low,565,2023-01-05,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1159,66,41978.74,SME,High,703,2023-09-18,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1160,69,46824.44,Private Banking,Medium,770,2023-02-23,Excellent customer service and transparent charges.,0
+CUST_1161,49,35989.27,Corporate,High,726,2023-02-16,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1162,21,56654.49,SME,High,643,2023-08-03,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1163,47,48549.62,Private Banking,Low,584,2023-06-26,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1164,54,73453.17,Private Banking,High,671,2023-01-09,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1165,40,35631.63,Retail,Medium,670,2023-04-09,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1166,56,78323.84,Corporate,Medium,621,2023-01-20,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1167,62,40281.99,Retail,Medium,713,2023-08-29,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1168,32,36426.54,Retail,Medium,790,2023-03-02,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1169,60,42630.23,Corporate,High,693,2023-06-27,Excellent customer service and transparent charges.,0
+CUST_1170,46,84269.2,SME,Medium,689,2023-12-04,Excellent customer service and transparent charges.,0
+CUST_1171,53,54398.72,SME,High,623,2023-03-03,Customer support phone line was busy for over twenty minutes.,0
+CUST_1172,30,62941.53,Retail,High,763,2023-05-25,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1173,49,52241.62,Private Banking,High,675,2023-08-04,Excellent customer service and transparent charges.,0
+CUST_1174,24,53648.82,Corporate,High,645,2023-01-03,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1175,68,47411.8,SME,High,683,2023-06-09,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1176,39,55761.16,Private Banking,Medium,708,2023-08-15,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1177,45,62419.0,Corporate,Medium,688,2023-09-26,Excellent customer service and transparent charges.,0
+CUST_1178,19,80174.58,Retail,Very High,752,2023-04-30,Excellent customer service and transparent charges.,1
+CUST_1179,59,26882.97,SME,High,703,2023-03-30,Customer support phone line was busy for over twenty minutes.,0
+CUST_1180,62,79162.3,Retail,Medium,662,2023-11-25,Excellent customer service and transparent charges.,1
+CUST_1181,23,62919.41,Retail,Medium,704,2023-03-09,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1182,45,49483.56,SME,Medium,709,2023-12-23,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1183,45,46784.15,Retail,Very High,602,2023-04-08,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1184,61,70655.13,SME,Low,748,2023-09-24,Customer support phone line was busy for over twenty minutes.,1
+CUST_1185,61,58434.68,Retail,Medium,661,2023-04-15,Customer support phone line was busy for over twenty minutes.,1
+CUST_1186,37,31989.02,Private Banking,Medium,663,2023-11-19,Excellent customer service and transparent charges.,1
+CUST_1187,47,60446.04,Retail,Medium,725,2023-05-03,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1188,28,72165.57,Private Banking,Very High,724,2023-01-29,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1189,45,67867.97,SME,Low,637,2023-05-17,Customer support phone line was busy for over twenty minutes.,1
+CUST_1190,42,45597.13,Retail,High,728,2023-07-14,Excellent customer service and transparent charges.,1
+CUST_1191,56,34869.89,Corporate,Low,646,2023-08-14,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1192,50,50110.4,Private Banking,High,789,2023-11-28,Excellent customer service and transparent charges.,0
+CUST_1193,18,103809.78,Corporate,Low,630,2023-06-19,Excellent customer service and transparent charges.,0
+CUST_1194,44,31825.02,Retail,Low,694,2023-01-09,Excellent customer service and transparent charges.,1
+CUST_1195,69,42358.97,Corporate,High,633,2023-02-09,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1196,30,60880.63,Corporate,Very High,813,2023-01-25,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1197,58,53132.12,SME,Very High,605,2023-09-18,Excellent customer service and transparent charges.,1
+CUST_1198,20,51996.93,SME,High,711,2023-08-14,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1199,56,85370.81,Corporate,Very High,635,2023-05-04,Customer support phone line was busy for over twenty minutes.,0
+CUST_1200,23,42201.1,Retail,Low,658,2023-02-07,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1201,25,54785.79,Corporate,Very High,707,2023-11-24,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1202,44,58028.61,Corporate,Medium,753,2023-09-08,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1203,26,42928.95,Retail,High,777,2023-06-25,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1204,54,33390.21,Private Banking,High,587,2023-03-31,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1205,50,59039.76,SME,High,696,2023-02-06,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1206,68,82205.0,SME,High,767,2023-11-12,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1207,59,61068.74,SME,Medium,578,2023-06-25,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1208,61,56351.09,Corporate,High,698,2023-10-11,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1209,41,56240.96,SME,Medium,679,2023-03-22,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1210,32,51123.73,Corporate,Very High,704,2023-04-24,Customer support phone line was busy for over twenty minutes.,0
+CUST_1211,49,72752.23,Retail,High,633,2023-02-09,Excellent customer service and transparent charges.,1
+CUST_1212,49,47418.37,Corporate,Medium,593,2023-10-28,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1213,41,34648.22,Corporate,High,565,2023-08-12,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1214,58,31275.19,SME,High,738,2023-11-14,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1215,69,56185.14,Retail,High,746,2023-12-15,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1216,66,70910.39,Retail,High,698,2023-04-25,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1217,66,58562.28,Retail,Low,647,2023-07-05,Excellent customer service and transparent charges.,0
+CUST_1218,69,50239.47,Retail,High,582,2023-11-19,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1219,29,61876.62,SME,Very High,713,2023-02-25,Excellent customer service and transparent charges.,1
+CUST_1220,56,57793.19,Retail,Medium,613,2023-02-09,Excellent customer service and transparent charges.,1
+CUST_1221,19,67392.86,Corporate,High,637,2023-12-20,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1222,20,74897.56,Corporate,Medium,644,2023-02-09,Customer support phone line was busy for over twenty minutes.,1
+CUST_1223,66,40684.15,Corporate,Medium,668,2023-12-13,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1224,54,20000.0,SME,High,634,2023-08-25,Customer support phone line was busy for over twenty minutes.,0
+CUST_1225,66,49726.95,Corporate,High,682,2023-10-16,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1226,34,39709.88,SME,Medium,642,2023-09-19,Customer support phone line was busy for over twenty minutes.,0
+CUST_1227,66,67479.37,Corporate,High,722,2023-08-04,Account statements are confusing and fees were charged unexpectedly.,1
+CUST_1228,19,44134.99,Retail,Low,741,2023-05-27,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1229,19,26863.32,Private Banking,Low,686,2023-12-02,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1230,45,46386.98,Retail,Low,707,2023-06-17,Customer support phone line was busy for over twenty minutes.,1
+CUST_1231,40,32620.39,Retail,Low,807,2023-04-02,Customer support phone line was busy for over twenty minutes.,1
+CUST_1232,54,78852.37,SME,Medium,609,2023-12-19,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1233,49,62074.63,Retail,High,605,2023-02-28,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1234,50,64713.37,SME,High,721,2023-02-28,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1235,18,63040.4,Corporate,Low,796,2023-10-31,"Mobile app response is sluggish, need urgent bug fixes.",1
+CUST_1236,36,67602.57,Private Banking,Very High,664,2023-06-18,Great interest rates on savings accounts and smooth onboarding.,1
+CUST_1237,19,72000.13,SME,High,783,2023-09-26,Excellent customer service and transparent charges.,1
+CUST_1238,61,46903.82,Corporate,Medium,685,2023-12-29,Customer support phone line was busy for over twenty minutes.,0
+CUST_1239,43,33700.58,Private Banking,Very High,639,2023-02-14,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1240,49,42295.99,Retail,Very High,620,2023-12-11,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1241,23,54321.26,Private Banking,Medium,717,2023-06-30,Great interest rates on savings accounts and smooth onboarding.,0
+CUST_1242,49,20000.0,Retail,Medium,625,2023-06-19,"Mobile app response is sluggish, need urgent bug fixes.",0
+CUST_1243,21,72140.89,Corporate,Very High,684,2023-12-22,Account statements are confusing and fees were charged unexpectedly.,0
+CUST_1244,28,26548.79,Retail,High,775,2023-07-10,Customer support phone line was busy for over twenty minutes.,1
+CUST_1245,34,63986.4,Corporate,Low,661,2023-06-04,Customer support phone line was busy for over twenty minutes.,1
+CUST_1246,55,52478.94,Retail,High,758,2023-07-07,Prompt transaction confirmation and easy foreign remittances.,1
+CUST_1247,41,59277.63,SME,High,607,2023-01-07,Excellent customer service and transparent charges.,0
+CUST_1248,22,47921.2,SME,High,647,2023-05-13,Prompt transaction confirmation and easy foreign remittances.,0
+CUST_1249,69,58258.1,Private Banking,High,595,2023-08-23,Great interest rates on savings accounts and smooth onboarding.,0

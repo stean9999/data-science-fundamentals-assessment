@@ -1,0 +1,265 @@
+import json
+
+notebook = {
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Data Science Fundamentals Assessment\n",
+    "**Internship Track:** Data Science Core  \n",
+    "**Topic:** Comprehensive Practical Implementation Covering Python, Statistics, Data Types, and Exploratory Data Analysis  \n",
+    "**Author:** Data Science Intern  \n",
+    "---\n",
+    "### Project Overview & Objectives\n",
+    "1. **Understand Data Science Fundamentals:** Lifecycle, analysis types, industry use cases.\n",
+    "2. **Apply Python Programming Basics:** Variables, loops, functions, lists, dicts, file handling.\n",
+    "3. **Learn Statistical Foundations:** Mean, median, mode, variance, std dev, percentiles, correlation.\n",
+    "4. **Understand Data Types & Structures:** Numerical, categorical, ordinal, datetime, text.\n",
+    "5. **Follow Best Practices:** Clean code, PEP 8, reproducible random seeds, documentation.\n",
+    "6. **Complete Practical Assignments:** Empirical data generation, analysis, and visualization."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. Environment Setup & Dependency Ingestion"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os\n",
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns\n",
+    "\n",
+    "# Set reproducible random seed\n",
+    "np.random.seed(42)\n",
+    "plt.style.use('seaborn-v0_8-whitegrid' if 'seaborn-v0_8-whitegrid' in plt.style.available else 'default')\n",
+    "print(\"Libraries loaded successfully.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2. Multi-Modal Data Generation & Python Programming Primitives\n",
+    "We create a realistic synthetic customer banking dataset representing **250 customer profiles** spanning multiple data types:\n",
+    "- **Numerical Continuous:** `AnnualIncome`\n",
+    "- **Numerical Discrete:** `Age`, `CreditScore`\n",
+    "- **Categorical Nominal:** `Department`\n",
+    "- **Categorical Ordinal:** `SatisfactionLevel`\n",
+    "- **Temporal Datetime:** `SignupDate`\n",
+    "- **Unstructured Text:** `CustomerFeedback`\n",
+    "- **Binary Indicator:** `Churned`"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "n_samples = 250\n",
+    "\n",
+    "customer_ids = [f\"CUST_{1000 + i}\" for i in range(n_samples)]\n",
+    "ages = np.random.randint(18, 70, size=n_samples)\n",
+    "incomes = np.round(np.clip(np.random.normal(loc=55000, scale=15000, size=n_samples), 20000, 120000), 2)\n",
+    "credit_scores = np.clip(np.random.normal(loc=680, scale=60, size=n_samples).astype(int), 300, 850)\n",
+    "\n",
+    "satisfaction_levels = [\"Low\", \"Medium\", \"High\", \"Very High\"]\n",
+    "satisfaction = np.random.choice(satisfaction_levels, size=n_samples, p=[0.15, 0.35, 0.35, 0.15])\n",
+    "\n",
+    "departments = [\"Retail\", \"Corporate\", \"SME\", \"Private Banking\"]\n",
+    "department = np.random.choice(departments, size=n_samples, p=[0.40, 0.25, 0.20, 0.15])\n",
+    "\n",
+    "start_date = pd.to_datetime(\"2023-01-01\")\n",
+    "random_days = np.random.randint(0, 365, size=n_samples)\n",
+    "signup_dates = [start_date + pd.Timedelta(days=int(d)) for d in random_days]\n",
+    "\n",
+    "feedbacks = [\n",
+    "    \"Excellent customer service and transparent charges.\",\n",
+    "    \"Mobile app response is sluggish, need urgent bug fixes.\",\n",
+    "    \"Great interest rates on savings accounts and smooth onboarding.\",\n",
+    "    \"Customer support phone line was busy for over twenty minutes.\",\n",
+    "    \"Prompt transaction confirmation and easy foreign remittances.\"\n",
+    "]\n",
+    "customer_feedback = np.random.choice(feedbacks, size=n_samples)\n",
+    "\n",
+    "# Churn probability calculation based on features\n",
+    "churn_flags = []\n",
+    "for i in range(n_samples):\n",
+    "    p = 0.2\n",
+    "    if satisfaction[i] == \"Low\":\n",
+    "        p += 0.4\n",
+    "    elif satisfaction[i] == \"Medium\":\n",
+    "        p += 0.1\n",
+    "    if credit_scores[i] < 620:\n",
+    "        p += 0.2\n",
+    "    churn_flags.append(int(np.random.binomial(1, min(0.95, p))))\n",
+    "\n",
+    "df = pd.DataFrame({\n",
+    "    \"CustomerID\": customer_ids,\n",
+    "    \"Age\": ages,\n",
+    "    \"AnnualIncome\": incomes,\n",
+    "    \"Department\": department,\n",
+    "    \"SatisfactionLevel\": satisfaction,\n",
+    "    \"CreditScore\": credit_scores,\n",
+    "    \"SignupDate\": signup_dates,\n",
+    "    \"CustomerFeedback\": customer_feedback,\n",
+    "    \"Churned\": churn_flags\n",
+    "})\n",
+    "\n",
+    "df.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Statistical Foundations: Central Tendency, Dispersion & Correlation\n",
+    "Computing parametric and non-parametric summary statistics:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def compute_statistics(series, label):\n",
+    "    mean_val = np.mean(series)\n",
+    "    median_val = np.median(series)\n",
+    "    vals, cnts = np.unique(series, return_counts=True)\n",
+    "    mode_val = vals[np.argmax(cnts)]\n",
+    "    std_val = np.std(series, ddof=1)\n",
+    "    var_val = np.var(series, ddof=1)\n",
+    "    q25, q75 = np.percentile(series, [25, 75])\n",
+    "    iqr_val = q75 - q25\n",
+    "    skew_val = pd.Series(series).skew()\n",
+    "    \n",
+    "    return {\n",
+    "        \"Feature\": label,\n",
+    "        \"Mean\": round(mean_val, 2),\n",
+    "        \"Median\": round(median_val, 2),\n",
+    "        \"Mode\": round(mode_val, 2),\n",
+    "        \"Variance\": round(var_val, 2),\n",
+    "        \"Std Dev\": round(std_val, 2),\n",
+    "        \"Q1 (25%)\": round(q25, 2),\n",
+    "        \"Q3 (75%)\": round(q75, 2),\n",
+    "        \"IQR\": round(iqr_val, 2),\n",
+    "        \"Skewness\": round(skew_val, 2)\n",
+    "    }\n",
+    "\n",
+    "stat_summary = pd.DataFrame([\n",
+    "    compute_statistics(df[\"AnnualIncome\"], \"Annual Income ($)\"),\n",
+    "    compute_statistics(df[\"CreditScore\"], \"Credit Score\"),\n",
+    "    compute_statistics(df[\"Age\"], \"Age (Years)\")\n",
+    "])\n",
+    "\n",
+    "stat_summary"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### Correlation Analysis (Pearson vs Spearman)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "p_corr = df[\"AnnualIncome\"].corr(df[\"CreditScore\"], method=\"pearson\")\n",
+    "s_corr = df[\"AnnualIncome\"].corr(df[\"CreditScore\"], method=\"spearman\")\n",
+    "\n",
+    "print(f\"Pearson Correlation (Linear): {p_corr:.4f}\")\n",
+    "print(f\"Spearman Correlation (Monotonic Rank): {s_corr:.4f}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 4. Visualizations: Distributions, Boxplots & Heatmaps"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fig, axes = plt.subplots(1, 2, figsize=(14, 5))\n",
+    "\n",
+    "# Income Distribution\n",
+    "sns.histplot(df[\"AnnualIncome\"], kde=True, ax=axes[0], color=\"#2563EB\", bins=20)\n",
+    "axes[0].set_title(\"Annual Income Distribution\", fontsize=12, fontweight=\"bold\")\n",
+    "axes[0].axvline(df[\"AnnualIncome\"].mean(), color=\"#DC2626\", linestyle=\"--\", label=f'Mean: ${df[\"AnnualIncome\"].mean():,.0f}')\n",
+    "axes[0].axvline(df[\"AnnualIncome\"].median(), color=\"#16A34A\", linestyle=\"-\", label=f'Median: ${df[\"AnnualIncome\"].median():,.0f}')\n",
+    "axes[0].legend()\n",
+    "\n",
+    "# Credit Score by Satisfaction Level\n",
+    "sns.boxplot(x=\"SatisfactionLevel\", y=\"CreditScore\", data=df, order=[\"Low\", \"Medium\", \"High\", \"Very High\"], ax=axes[1], palette=\"Blues_r\", hue=\"SatisfactionLevel\", legend=False)\n",
+    "axes[1].set_title(\"Credit Score by Satisfaction Level (Ordinal Structure)\", fontsize=12, fontweight=\"bold\")\n",
+    "\n",
+    "plt.tight_layout()\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "fig, axes = plt.subplots(1, 2, figsize=(14, 5))\n",
+    "\n",
+    "# Heatmap of Numerical Features\n",
+    "num_cols = [\"Age\", \"AnnualIncome\", \"CreditScore\", \"Churned\"]\n",
+    "sns.heatmap(df[num_cols].corr(), annot=True, cmap=\"coolwarm\", vmin=-1, vmax=1, fmt=\".2f\", ax=axes[0], linewidths=1)\n",
+    "axes[0].set_title(\"Pearson Correlation Heatmap\", fontsize=12, fontweight=\"bold\")\n",
+    "\n",
+    "# Churn Rate by Department\n",
+    "dept_churn = df.groupby(\"Department\")[\"Churned\"].mean().reset_index()\n",
+    "sns.barplot(x=\"Department\", y=\"Churned\", data=dept_churn, ax=axes[1], palette=\"crest\", hue=\"Department\", legend=False)\n",
+    "axes[1].set_title(\"Customer Churn Rate by Department\", fontsize=12, fontweight=\"bold\")\n",
+    "axes[1].set_ylabel(\"Churn Proportion\")\n",
+    "\n",
+    "plt.tight_layout()\n",
+    "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 5. Conclusions & Key Findings\n",
+    "- **Data Science Lifecycle & Typing:** Managing numerical, ordinal, nominal, temporal, and unstructured text types requires tailored scaling and encoding treatments.\n",
+    "- **Statistical Properties:** The median provides robust resistance to outliers in income distributions, while credit scores exhibit normal bell-shaped traits.\n",
+    "- **Engineering Best Practices:** Deterministic seed setting, PEP 8 compliance, modular functional decomposition, and comprehensive documentation ensure reproducible analysis."
+   ]
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
+
+with open("notebooks/Data_Science_Fundamentals_Assessment.ipynb", "w", encoding="utf-8") as f:
+    json.dump(notebook, f, indent=2)
+
+print("Jupyter Notebook created successfully.")
