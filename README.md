@@ -18,6 +18,7 @@ This repository serves as the official project repository for the **Data Science
 |---|---|---|---|
 | **[`1st/`](1st/)** | **Data Science Fundamentals Assessment** | Conceptual foundations, Data Science lifecycle, Python primitives, statistical formulations, customer banking churn analysis (250 samples). | [`Data_Science_Fundamentals_Assessment_Report.docx`](1st/Data_Science_Fundamentals_Assessment_Report.docx) |
 | **[`2nd/`](2nd/)** | **Hands-On Data Lab Implementation** | Environment configuration, multi-modal retail dataset (500 records), 8-stage cleaning pipeline, 10 production visualizations, bivariate correlation, ML feature engineering, and executive dashboard. | [`Hands_On_Data_Lab_Implementation_Report.docx`](2nd/Hands_On_Data_Lab_Implementation_Report.docx) |
+| **[`3rd/`](3rd/)** | **Real-World Dataset Analysis Project** | Global Enterprise E-Commerce & Retail Supply Chain (1,250+ records), 8-stage cleaning pipeline, 10 multivariate visualizations, discount elasticity modeling, interactive notebook, and executive dashboard. | [`Real_World_Dataset_Analysis_Project_Report.docx`](3rd/Real_World_Dataset_Analysis_Project_Report.docx) |
 
 ---
 
